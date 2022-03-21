@@ -1,0 +1,46 @@
+/*************************************
+This css file includes several different formatting examples
+GENERAL
+https://fonts.google.com/specimen/Pacifico#license
+Images should be 1x1 ratio to display correctly
+**************************************/
+
+
+body {
+    background-color: lightseagreen;
+    color: #000;
+}
+
+h1 {
+    margin: 20px 20px;
+    font-size: 1.75em;
+    font-weight: normal;
+    line-height: .5;
+    text-align: center;
+    color: #101884;
+
+    padding: 2px 0 0 0;
+
+}
+
+h2 {
+    font-size: 1.00em;
+    font-weight: normal;
+    margin: 10px 20px;
+    color: #101884;
+    text-align: center;
+    padding: 6px 0 0 0;
+}
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: darkseagreen;
+    color: #101884;
+    text-align: center;
+}
+
+
