@@ -43,6 +43,50 @@ h2 {
     text-align: center;
 }
 
+.row {
+  height: 40vh;
+  margin-bottom: 2px;
+  font-size: 12px;
+  text-align: center;
+    line-height: 10vh;
+}
 
 
+
+/* Equal-height card images, cf. https://stackoverflow.com/a/47698201/1375163*/
+.card-img-top {
+    /*height: 11vw;*/
+    width: 100%;
+    flex-grow: 1;
+    object-fit:contain;
+}
+  /* Small devices (landscape phones, 576px and up) */
+  @media (min-width: 576px) {
+    .card-img-top {
+        height: 19vw;
+    }
+  }
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {
+    .card-img-top {
+        height: 16vw;
+    }
+  }
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+    .card-img-top {
+        height: 11vw;
+    }
+  }
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 992px) {
+    .card-img-top {
+        height: 11vw;
+    }
+  }
+
+
+.card-body{
+    flex-grow:0;
+}
 
